@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      uri: ${MONGOSTRINGURL}
+      database: ${MONGODATABASE}
+
+correios:
+  url:  https://viacep.com.br
+
+logging:
+  level:
+    org.springframework:
+      web: DEBUG

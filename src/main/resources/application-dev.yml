@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://wallace:MPnDmViWL0YpUcLl@peixotoinstalacoes-mludo.gcp.mongodb.net/test?retryWrites=true&w=majority
+      database: test
+
+
+correios:
+  url:  https://viacep.com.br
+
+logging:
+  level:
+    org.springframework:
+      web: DEBUG
