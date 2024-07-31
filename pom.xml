@@ -59,6 +59,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <addResources>true</addResources>
+                    <mainClass>br.com.peixotoinstalacoes.controleestoque.ControleEstoqueApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
